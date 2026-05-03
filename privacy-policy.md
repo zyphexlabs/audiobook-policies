@@ -1,7 +1,7 @@
 # AudioBook — Privacy Policy
 
 **App:** AudioBook
-**Developer:** zypexlabs
+**Developer:** Morni
 **Effective date:** May 3, 2026
 **Last updated:** May 3, 2026
 
@@ -17,15 +17,15 @@ We collect the following categories of data from users of the AudioBook app:
 - **User ID** — automatically assigned when you create an account. Used internally to associate your data with your account.
 
 ### Subscription and purchase data
-- **Purchase history** — records of subscriptions purchased through Google Play, including subscription tier (Buniyaadi, Plus, Pro), billing dates, renewal status.
+- **Purchase history** — records of subscriptions purchased through Google Play, including subscription tier, billing dates, and renewal status.
 
 ### App content and activity
 - **Files you upload** — books, PDFs, and other text content you import into your library.
-- **App interaction data** — usage of features, including: minutes of audio generated (TTS), number of AI queries, books in your library, audio playback timestamps. Used to enforce subscription tier limits and provide service.
+- **App interaction data** — usage of features, including: minutes of audio generated (TTS), number of AI queries, books in your library, and audio playback timestamps. Used to enforce subscription tier limits and provide service.
 - **User-generated content** — notes, highlights, bookmarks, and vocabulary entries you create within the app.
 
 ### Technical identifiers
-- **Device identifiers** — anonymous device-tied identifiers used by our subscription management provider (RevenueCat) to track entitlements before user authentication.
+- **Device identifiers** — anonymous device-tied identifiers used by our subscription management provider to track entitlements before user authentication.
 
 We do **not** collect:
 - Your precise or approximate location
@@ -39,7 +39,7 @@ We do **not** collect:
 
 We use the data we collect to:
 - Authenticate your account and enable sign-in.
-- Enforce subscription tier limits (free, Buniyaadi, Plus, Pro) on usage of premium features.
+- Enforce subscription tier limits on usage of premium features.
 - Provide text-to-speech audio synthesis through our backend services.
 - Provide AI-assisted features (translation, vocabulary lookup) when you initiate them.
 - Store your library, notes, and reading progress for retrieval across devices.
@@ -48,29 +48,31 @@ We use the data we collect to:
 
 ## 3. Data sharing with third parties
 
-We share **limited data** with the following third-party services solely for the purpose of providing the app's functionality:
+To provide the app's functionality, we work with third-party service providers who process limited data on our behalf. These providers are bound by data processing agreements and may not use your data for their own purposes.
 
-### RevenueCat (subscription management)
-- **Data shared:** anonymous user ID, anonymous device identifier, purchase history, subscription state.
-- **Purpose:** to manage subscription entitlements and validate purchases across platforms.
-- **Privacy policy:** https://www.revenuecat.com/privacy
-
-### Supabase (backend infrastructure)
-- **Data shared:** all user account data, files, and app activity that we collect (Supabase IS our backend; this is infrastructure provider, not data sharing for marketing).
-- **Purpose:** to host the app's database, authentication, and storage.
+### Backend infrastructure
+- **Provider:** Supabase
+- **Data processed:** all user account data, files, and app activity (Supabase is our backend infrastructure provider; not data sharing for marketing).
 - **Privacy policy:** https://supabase.com/privacy
 
-### Google Play Billing (payment processing)
-- **Data shared:** purchase tokens for subscription processing.
+### Subscription management
+- **Provider:** RevenueCat
+- **Data processed:** anonymous user identifier, anonymous device identifier, subscription and purchase records.
+- **Purpose:** to manage subscription entitlements and validate purchases.
+- **Privacy policy:** https://www.revenuecat.com/privacy
+
+### Payment processing
+- **Provider:** Google Play Billing
+- **Data processed:** purchase tokens for subscription processing.
 - **Purpose:** to handle in-app subscription purchases on Android.
 - **Privacy policy:** https://policies.google.com/privacy
 
-### LemonFox (text-to-speech)
-- **Data shared:** the text you wish to convert to speech, sent server-to-server through our backend (the text passes through our servers; we strip it of identifying information before forwarding).
+### Cloud audio synthesis
+- **Provider:** Cloud text-to-speech services. We work with multiple providers (including LemonFox and Orator) depending on language and feature availability.
+- **Data processed:** text content you choose to convert to speech, processed server-side via our backend.
 - **Purpose:** to generate audio narration of book content.
-- **Privacy policy:** https://lemonfox.ai/privacy
 
-We do **not** sell your data to advertisers, marketers, or any other third party.
+We do **not** sell your data to advertisers, marketers, or any other party.
 We do **not** use your data for advertising or marketing purposes.
 We do **not** share your data for any purpose beyond providing the app's functionality.
 
@@ -106,8 +108,8 @@ To exercise any of these rights, contact us at **zyphexlabs@gmail.com**.
 
 We protect your data through:
 - **Encryption in transit** — all data sent between the app and our servers uses HTTPS/TLS.
-- **Encryption at rest** — data stored on our backend is encrypted by Supabase's infrastructure.
-- **Access controls** — Row-Level Security (RLS) policies ensure users can only access their own data.
+- **Encryption at rest** — data stored on our backend is encrypted by our infrastructure provider.
+- **Access controls** — Row-Level Security policies ensure users can only access their own data.
 - **Authentication** — passwords are hashed using industry-standard algorithms; we never see your plaintext password.
 
 No system is perfectly secure. While we follow best practices, we cannot guarantee absolute security of data transmitted over the internet.
@@ -130,5 +132,5 @@ For questions about this privacy policy or how we handle your data:
 
 **Email:** zyphexlabs@gmail.com
 
-**Developer:** zyphexlabs
+**Developer:** Morni
 **App:** AudioBook
