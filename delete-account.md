@@ -1,7 +1,7 @@
 # AudioBook — Account Deletion
 
 **App:** AudioBook
-**Developer:** Morni
+**Developer:** zyphexlabs
 **Last updated:** May 3, 2026
 
 ## How to delete your account
@@ -48,10 +48,10 @@ Subscription billing stops at the end of the current billing period.
 
 If you cannot access the in-app deletion flow (for example, you have lost access to your account credentials), you may request deletion by emailing:
 
-**zyphexlabs@gmail.com]**
+**zyphexlabs@gmail.com**
 
 Include the email address registered to your AudioBook account in your message. We will process email-based deletion requests within 30 days.
 
 ## Questions
 
-For any questions about this policy, contact us at **[YOUR_EMAIL_HERE]**.
+For any questions about this policy, contact us at **zyphexlabs@gmail.com**.
