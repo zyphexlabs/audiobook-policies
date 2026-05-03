@@ -114,7 +114,7 @@ No system is perfectly secure. While we follow best practices, we cannot guarant
 
 ## 7. Children's privacy
 
-AudioBook is not directed at children under 18. We do not knowingly collect data from children under 18. If you believe a child has provided us with personal data, contact us at **[YOUR_EMAIL_HERE]** so we can delete it.
+AudioBook is not directed at children under 18. We do not knowingly collect data from children under 18. If you believe a child has provided us with personal data, contact us at **zyphexlabs@gmail.com** so we can delete it.
 
 ## 8. Changes to this policy
 
